@@ -8,3 +8,5 @@ interface CryptoApi {
     @GET("")
     fun getCryptos(): Single<List<CryptoCurrencies>>
 }
+
+//checking to see if this works
